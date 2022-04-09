@@ -27,9 +27,9 @@
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
 }
-@media (max-width: 100vh) {
+@media (max-width: 50vh) {
   header {
-    max-height: 100vw;
+    max-height: 200vw;
   }
   #board {
     margin-top: -1rem !important;
@@ -304,7 +304,7 @@ html {
 }
 html,
 body {
-  font-family: var(--font-family-sans-serif);
+  font-family: ..., "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;;
 }
 html,
 body,
@@ -894,7 +894,7 @@ img[lazyload] {
 .markdown-body {
   font-size: 1rem;
   margin-bottom: 2rem;
-  font-family: var(--font-family-sans-serif);
+  font-family: ..., "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;;
   color: var(--post-text-color);
 }
 .markdown-body h1,
@@ -927,7 +927,7 @@ img[lazyload] {
   font-weight: bold;
 }
 .markdown-body pre {
-  font-size: 85% !important;
+  font-size: 75% !important;
 }
 .markdown-body pre code {
   overflow-x: auto;
