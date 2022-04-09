@@ -1,0 +1,47 @@
+#waline {
+  --waline-avatar-size: 3rem;
+  --waline-badge-font-size: 0.75em;
+}
+#waline darkmode-selector {
+/* 常规颜色 */
+  --waline-white: #000;
+  --waline-light-grey: #666;
+  --waline-dark-grey: #999;
+/* 布局颜色 */
+  --waline-text-color: #888;
+  --waline-bgcolor: #1e1e1e;
+  --waline-bgcolor-light: #272727;
+  --waline-border-color: #333;
+  --waline-disable-bgcolor: #444;
+  --waline-disable-color: #272727;
+/* 特殊颜色 */
+  --waline-bq-color: #272727;
+/* 其他颜色 */
+  --waline-info-bgcolor: #272727;
+  --waline-info-color: #666;
+}
+#waline label {
+  min-width: 50px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+#waline input {
+  font-size: 0.875em;
+}
+#waline .v[data-class='v'] .vcard .vhead .vnick svg {
+  bottom: 0.125em;
+}
+#waline .v[data-class='v'] .vcard .vhead .vbadge {
+  line-height: normal;
+  padding: 0.1em 0.3em;
+}
+#waline .v[data-class='v'] .vcard .vmeta > span {
+  border-radius: 0.5em;
+  margin-right: 1em;
+}
+#waline .v[data-class='v'] .vcontent .vemoji {
+  vertical-align: top;
+}
+#waline .v[data-class='v'] .vinfo {
+  flex: auto;
+}

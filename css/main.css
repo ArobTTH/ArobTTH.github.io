@@ -348,16 +348,16 @@ img[lazyload] {
 }
 :root {
   --color-mode: 'light';
-  --body-bg-color: 000000;
-  --board-bg-color: #0f0f0f;
+  --body-bg-color: #f9f9f9;
+  --board-bg-color: #fff;
   --text-color: #3c4858;
   --sec-text-color: #718096;
   --post-text-color: #2c3e50;
   --post-heading-color: #1a202c;
   --post-link-color: #0366d6;
-  --link-hover-color: #30a9de;
+  --link-hover-color: #008B8B;
   --link-hover-bg-color: #f8f9fa;
-  --navbar-bg-color: #2f4154;
+  --navbar-bg-color: #080808;
   --navbar-text-color: #fff;
 }
 @media (prefers-color-scheme: dark) {
@@ -365,16 +365,16 @@ img[lazyload] {
     --color-mode: 'dark';
   }
   :root:not([data-user-color-scheme]) {
-    --body-bg-color: 000000;
-    --board-bg-color: 000000;
+    --body-bg-color: #1E1E1E;
+    --board-bg-color: #292929;
     --text-color: #c4c6c9;
     --sec-text-color: #a7a9ad;
     --post-text-color: #c4c6c9;
     --post-heading-color: #c4c6c9;
     --post-link-color: #1589e9;
-    --link-hover-color: #30a9de;
+    --link-hover-color: #008B8B;
     --link-hover-bg-color: #364151;
-    --navbar-bg-color: 000000;
+    --navbar-bg-color: #080808;
     --navbar-text-color: #d0d0d0;
   }
   :root:not([data-user-color-scheme]) img,
@@ -447,16 +447,16 @@ img[lazyload] {
   }
 }
 [data-user-color-scheme='dark'] {
-  --body-bg-color: 000000;
-  --board-bg-color: 000000;
+  --body-bg-color: #1E1E1E;
+  --board-bg-color: #292929;
   --text-color: #c4c6c9;
   --sec-text-color: #a7a9ad;
   --post-text-color: #c4c6c9;
   --post-heading-color: #c4c6c9;
   --post-link-color: #1589e9;
-  --link-hover-color: #30a9de;
+  --link-hover-color: #008B8B;
   --link-hover-bg-color: #364151;
-  --navbar-bg-color: 000000;
+  --navbar-bg-color: #080808;
   --navbar-text-color: #d0d0d0;
 }
 [data-user-color-scheme='dark'] img,
@@ -1227,11 +1227,11 @@ a.fancybox:hover {
   text-decoration: none;
 }
 #nprogress .bar {
-  height: 3px !important;
-  background-color: #29d !important;
+  height: 1.5px !important;
+  background-color: #54FF9F !important;
 }
 #nprogress .peg {
-  box-shadow: 0 0 14px #29d, 0 0 8px #29d !important;
+  box-shadow: 0 0 14px #54FF9F, 0 0 8px #54FF9F !important;
 }
 @media (max-width: 575px) {
   #nprogress .bar {
